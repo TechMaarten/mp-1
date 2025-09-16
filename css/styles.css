@@ -73,9 +73,8 @@ nav li {
     margin-right: 1vw;
     margin-bottom: 1vh;
     padding: 3vh 2vw;
-    font-size: 1.1em;
+    font-size: calc(1px + 1vw);
     border-radius: 8px;
-    transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease, background-color .12s ease;
 }
 
 nav li:hover{
@@ -100,7 +99,6 @@ main {
     justify-content: space-around;
     text-align: center;
     align-items: center;
-    min-height: 60vh;
     border-left: 2px solid rgba(229,231,235,0.08);
 }
 
@@ -263,7 +261,7 @@ th {
     }
 
     nav a {
-        font-size: 1.1em;
+        font-size: calc(1px + 1vw);
     }
 
     #head {
